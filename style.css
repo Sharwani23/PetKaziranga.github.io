@@ -1,10 +1,11 @@
 /* Style the header */
 header {
-    background-color: rgb(1, 1, 1);
+    background-color:rgb(179, 199, 216);
     padding: 10px;
     text-align: center;
+    
     font-size: 35px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
   }
   
   
@@ -15,3 +16,15 @@ footer {
     text-align: center;
     color: white;
   }
+
+  /* login page  */
+    .cascading-right {
+      margin-right: -50px;
+    }
+
+    @media (max-width: 991.98px) {
+      .cascading-right {
+        margin-right: 0;
+      }
+    }
+  
